@@ -268,7 +268,7 @@ function listFiles(auth) {
     if (err) return console.log('The API returned an error: ' + err);
     else {
       console.log('res',res.data.id);
-     // opn('https://docs.google.com/spreadsheets/d/'+res.data.id);
+      opn('https://docs.google.com/spreadsheets/d/'+res.data.id);
     }
   });
 
